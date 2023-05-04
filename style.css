@@ -418,12 +418,24 @@ footer{
             display: flex;
             flex-wrap: wrap;
         }
+        .contenedor2{
+            display: none;
+        }
 
     }
 
     @media screen and (max-width:434px) {
-    footer{
-        flex-wrap: wrap;
-    }
-    }
+
+        .selected1 {
+            width: 45%;
+            
+        }
+        .twitter {
+            width: 75%;
+            
+        }
+        footer{
+            flex-wrap: wrap;
+        }
+}
     
