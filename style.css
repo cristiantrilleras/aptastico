@@ -1,0 +1,429 @@
+/* variables css */
+:root{
+    --colorprimario: linear-gradient(purple,black);
+    --colorsecundario: blue;
+    --opcion2: rgb(170, 170, 225);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 10vh;
+    background-image: linear-gradient(purple, black);
+    /* animaciones css */
+    animation-name: mianimacion;
+    animation-duration: 6s;
+    /* animation-iteration-count: 2; */
+    /* animation-delay: 2s; */
+    /* background-color: rgb(75, 89, 100); */
+}
+
+/* @keyframes mianimacion {
+   0% {background-image: linear-gradient(purple, black)}
+   50%{background-image: linear-gradient(blue, black)}  
+   100%{background-image: linear-gradient(red, black)}  
+} */
+
+/* @keyframes mianimacion2 {
+    0%{image-orientation:flip;}
+    50%{image-resolution:flip;}
+    75%{efect}
+    100%
+    
+    
+} */
+.img-logo{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding-left: 10%;
+    /* background-color: rgb(75, 89, 100); */
+}
+
+.logo{
+    width: 20%;
+    height: 50%;
+}
+/* .iphone:hover{
+    box-shadow: 0px 0px 15px 15px #cfcac7;
+} */
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;   
+    padding-right: 10%;
+}
+button{
+    /* background-color: #4b5a65; */
+    background-image: var(--colorprimario);
+    width: 10%;
+    
+   
+    
+}
+button a{
+    color: white;
+    text-decoration: none;
+
+}
+.botonmenu:hover{
+    border-radius: 20px;
+    background: rgb(49, 41, 41);
+    transition: background-color 1s;
+    width: 17%;
+}
+.botonmenu{
+    width:17%;
+    border-radius: 20px;
+    
+}
+
+.primera{
+    display: flex;
+    padding-top: 2%;
+    background-color: #4b5a65;
+    color: white;
+}
+/* .iphone {
+height: 100%;
+width: 100%;
+
+} */
+
+/* .iphone:hover{
+    box-shadow: 0px 0px 15px 15px #cfcac7;
+} */
+.izq{
+    width: 40%;
+    padding-left: 10%;
+    display: flex;
+    
+}
+
+.der{
+    width: 40%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo1{
+    font-size: 75px;
+}
+.titulo3{
+    display: flex; 
+}
+.titulo4{
+    font-weight: 800;
+}
+
+.logoprimero{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    /* border: solid 3px blue; */
+
+}
+.see{
+    color: white;
+}
+
+.shape01{
+    height: 20%;
+}
+.botonquote{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(60, 146, 208);
+    color: white;
+    border-radius: 20px;
+}
+.botonquote:hover{
+    box-shadow: 0px 0px 15px 15px #cfcac7;
+}
+
+.adidas{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding:3%;
+}
+
+.etiquetas{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.interface{
+    width: 25%;
+    padding-top:3%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid 3px blue; */
+    height: 40vh;
+
+}
+
+.engaging{
+    font-size: 40px;
+}
+
+.celular{
+    width: 30%;
+}
+
+.boton-read{
+    height: 10%;
+    width: 25%;
+    background-color: #4d93cc;
+    color: white;;
+}
+
+.selected{
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.selected1{
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+    padding-bottom: 2%;
+    /* padding-left: 10%;
+    padding-top: 3%; */
+
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+
+
+    /* border: solid green 5px; */
+
+    
+}
+
+#images,#images1,#images2,#images3,#images4{
+    width: 15vw;
+    height: 15vh;
+
+    /* border: double blue 10px; */
+ 
+}
+#images1:hover{
+    filter: brightness(3);
+    transition:all .5s ease-in-out;
+}
+#images2:hover{
+    filter:brightness(2);
+    transition:all .5s ease-in-out;
+
+}
+#images3:hover{
+    filter: brightness(2);
+    transition:all .5s ease-in-out; 
+   
+}
+#images4:hover{
+    filter: invert(1);
+    transition:all .5s ease-in-out;
+
+}
+
+
+.contenedor2{
+    width: 25%;
+    /* border: solid blue 5px; */
+    padding-left:10%;
+    padding-bottom: 1%;
+}
+
+.shape{
+    padding-right: 5%;
+}
+
+.prueba{
+    width: 60%;
+    padding-left: 10%;
+    
+}
+.partesdepubli{
+    display: flex;
+    justify-content: center ;
+
+
+}
+
+.primerapart{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.prueba01{
+    width: 60%;
+    padding-left: 10%;
+    
+}
+
+.blog1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sun{
+
+    width: 30%;
+    height: 100%;
+}
+
+    .sun:hover{
+        box-shadow: 0px 0px 15px 15px #ec731e;
+        }
+
+.prueba2{
+
+       display: flex;
+       flex-direction: column;
+       width: 60%;
+       justify-content: space-evenly;
+}
+
+.p1{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.older{
+    padding-left: 10%;
+}
+
+.seccion-baja{
+    display: flex;
+    flex-direction: column;
+    /* height: 40vh; */
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+
+}
+
+.twitter{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+.imgtwitter{
+    width: 20px;
+    height:20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+    border-top: solid 3px #E8E8E8;
+    height: 10vh;
+
+   
+}
+
+.letrafooter{
+    color: gray;
+}
+
+@media screen and (max-width:900px) {
+    body{
+        background-color: #aad6ec;
+    }
+    .primera {
+        flex-direction: column;
+        align-items: center;
+    }
+    .iphone{
+        display: none;
+    }
+    .der{
+        width: 80%;
+    }
+    .selected{
+        padding-top: 5%;
+    }
+    .contenedor{
+        height: auto;
+    }
+    .interface{
+        height: auto;
+    }
+    .etiquetas{
+        flex-wrap: wrap;
+    }
+    .interface{
+       width: 100%;
+       padding: 5%;
+    }
+
+
+    }
+
+    @media screen and (max-width:434px) {
+        header{
+            width: none;
+        }
+        .img-logo{
+            width: 50%;
+        }
+        .logo {
+            width: 42%;
+            height: 50%;
+        }
+        .menu{
+            width: 50%;
+        }
+        .primerapart{
+            display: none;
+        }
+        .logoprimero{
+            width: 90%;
+        }
+        .vinculos{
+            width: 30px;
+            height: 30px;
+        }
+        .contenedor{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+    }
+
+    @media screen and (max-width:434px) {
+    footer{
+        flex-wrap: wrap;
+    }
+    }
+    
